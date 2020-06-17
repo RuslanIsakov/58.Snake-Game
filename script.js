@@ -9,3 +9,5 @@ var
   gs = fkp			= false, // game started && first key pressed (initialization states)
   speed = baseSpeed 	= 3, // snake movement speed
   xv = yv				= 0, // velocity (x & y)
+ px 					= ~~(canv.width) / 2, // player X position
+  py 					= ~~(canv.height) / 2, // player Y position
