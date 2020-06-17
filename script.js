@@ -5,3 +5,7 @@
 
 var
   canv 				= document.getElementById('mc'), // canvas
+ ctx					= canv.getContext('2d'), // 2d context
+  gs = fkp			= false, // game started && first key pressed (initialization states)
+  speed = baseSpeed 	= 3, // snake movement speed
+  xv = yv				= 0, // velocity (x & y)
