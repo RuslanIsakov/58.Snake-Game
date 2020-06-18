@@ -14,3 +14,6 @@ var
 pw = ph				= 20, // player size
   aw = ah				= 20, // apple size
   apples				= [], // apples list
+trail				= [], // tail elements list (aka trail)
+  tail 				= 100, // tail size (1 for 10)
+  tailSafeZone		= 20, // self eating protection for head zone (aka safeZone)
