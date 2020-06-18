@@ -11,3 +11,6 @@ var
   xv = yv				= 0, // velocity (x & y)
  px 					= ~~(canv.width) / 2, // player X position
   py 					= ~~(canv.height) / 2, // player Y position
+pw = ph				= 20, // player size
+  aw = ah				= 20, // apple size
+  apples				= [], // apples list
