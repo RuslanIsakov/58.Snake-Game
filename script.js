@@ -22,3 +22,7 @@ cooldown			= false, // is key in cooldown mode
 
 // game main loop
 function loop()
+{
+  // logic
+  ctx.fillStyle = 'black';
+  ctx.fillRect(0, 0, canv.width, canv.height);
