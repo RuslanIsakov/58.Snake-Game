@@ -32,3 +32,5 @@ function loop()
  // teleports
   if( px > canv.width )
     {px = 0;}
+if( px + pw < 0 )
+    {px = canv.width;}
