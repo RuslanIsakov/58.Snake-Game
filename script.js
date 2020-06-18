@@ -29,3 +29,6 @@ function loop()
  // force speed
   px += xv;
   py += yv;
+ // teleports
+  if( px > canv.width )
+    {px = 0;}
