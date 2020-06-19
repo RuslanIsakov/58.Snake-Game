@@ -53,3 +53,8 @@ for( var i = 0; i < trail.length; i++ )
   {
     trail.shift();
   }
+// eaten
+  if( trail.length > tail )
+  {
+    trail.shift();
+  }
