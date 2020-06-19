@@ -39,3 +39,5 @@ if( py + ph < 0 )
 
   if( py > canv.height )
     {py = 0;}
+// paint the snake itself with the tail elements
+  ctx.fillStyle = 'lime';
