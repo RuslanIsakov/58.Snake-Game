@@ -34,3 +34,8 @@ function loop()
     {px = 0;}
 if( px + pw < 0 )
     {px = canv.width;}
+if( py + ph < 0 )
+    {py = canv.height;}
+
+  if( py > canv.height )
+    {py = 0;}
