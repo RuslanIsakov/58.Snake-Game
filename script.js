@@ -58,3 +58,9 @@ for( var i = 0; i < trail.length; i++ )
   {
     trail.shift();
   }
+ // self collisions
+  if( trail.length >= tail && gs )
+  {
+    for( var i = trail.length - tailSafeZone; i >= 0; i-- )
+    {
+      if(
