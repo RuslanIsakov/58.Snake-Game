@@ -41,3 +41,8 @@ if( py + ph < 0 )
     {py = 0;}
 // paint the snake itself with the tail elements
   ctx.fillStyle = 'lime';
+for( var i = 0; i < trail.length; i++ )
+  {
+    ctx.fillStyle = trail[i].color || 'lime';
+    ctx.fillRect(trail[i].x, trail[i].y, pw, ph);
+  }
