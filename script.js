@@ -46,3 +46,10 @@ for( var i = 0; i < trail.length; i++ )
     ctx.fillStyle = trail[i].color || 'lime';
     ctx.fillRect(trail[i].x, trail[i].y, pw, ph);
   }
+ trail.push({x: px, y: py, color: ctx.fillStyle});
+
+  // limiter
+  if( trail.length > tail )
+  {
+    trail.shift();
+  }
