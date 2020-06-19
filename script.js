@@ -64,3 +64,8 @@ for( var i = 0; i < trail.length; i++ )
     for( var i = trail.length - tailSafeZone; i >= 0; i-- )
     {
       if(
+px < (trail[i].x + pw)
+        && px + pw > trail[i].x
+        && py < (trail[i].y + ph)
+        && py + ph > trail[i].y
+      )
