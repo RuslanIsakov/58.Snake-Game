@@ -90,3 +90,7 @@ if( t >= trail.length - tail )
     ctx.fillStyle = apples[a].color;
     ctx.fillRect(apples[a].x, apples[a].y, aw, ah);
   }
+// check for snake head collisions with apples
+  for( var a = 0; a < apples.length; a++ )
+  {
+    if(
