@@ -74,3 +74,7 @@ px < (trail[i].x + pw)
         // got collision
         tail = 10; // cut the tail
         speed = baseSpeed; // cut the speed (flash nomore lol xD)
+ for( var t = 0; t < trail.length; t++ )
+        {
+          // highlight lossed area
+          trail[t].color = 'red';
