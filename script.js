@@ -84,3 +84,9 @@ if( t >= trail.length - tail )
       }
     }
   }
+// paint apples
+  for( var a = 0; a < apples.length; a++ )
+  {
+    ctx.fillStyle = apples[a].color;
+    ctx.fillRect(apples[a].x, apples[a].y, aw, ah);
+  }
