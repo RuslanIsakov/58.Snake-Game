@@ -94,3 +94,8 @@ if( t >= trail.length - tail )
   for( var a = 0; a < apples.length; a++ )
   {
     if(
+px < (apples[a].x + pw)
+      && px + pw > apples[a].x
+      && py < (apples[a].y + ph)
+      && py + ph > apples[a].y
+    )
