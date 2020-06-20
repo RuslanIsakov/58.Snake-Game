@@ -78,3 +78,9 @@ px < (trail[i].x + pw)
         {
           // highlight lossed area
           trail[t].color = 'red';
+if( t >= trail.length - tail )
+            {break;}
+        }
+      }
+    }
+  }
