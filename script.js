@@ -99,3 +99,7 @@ px < (apples[a].x + pw)
       && py < (apples[a].y + ph)
       && py + ph > apples[a].y
     )
+{
+      // got collision with apple
+      apples.splice(a, 1); // remove this apple from the apples list
+      tail += 10; // add tail length
