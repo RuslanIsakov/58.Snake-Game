@@ -69,3 +69,8 @@ px < (trail[i].x + pw)
         && py < (trail[i].y + ph)
         && py + ph > trail[i].y
       )
+)
+      {
+        // got collision
+        tail = 10; // cut the tail
+        speed = baseSpeed; // cut the speed (flash nomore lol xD)
