@@ -129,3 +129,6 @@ x: ~~(Math.random() * canv.width),
     spawnApple();
     return;
   }
+// check for collisions with tail element, so no apple will be spawned in it
+  for( var i = 0; i < tail.length; i++ )
+  {
