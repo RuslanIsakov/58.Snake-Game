@@ -107,3 +107,7 @@ px < (apples[a].x + pw)
       spawnApple(); // spawn another apple(-s)
       break;
     }
+ }
+}
+
+// apples spawner
