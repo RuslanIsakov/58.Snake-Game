@@ -119,3 +119,7 @@ x: ~~(Math.random() * canv.width),
       y: ~~(Math.random() * canv.height),
       color: 'red'
     };
+// forbid to spawn near the edges
+  if(
+    (newApple.x < aw || newApple.x > canv.width - aw)
+    ||
