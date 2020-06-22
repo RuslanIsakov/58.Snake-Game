@@ -103,3 +103,7 @@ px < (apples[a].x + pw)
       // got collision with apple
       apples.splice(a, 1); // remove this apple from the apples list
       tail += 10; // add tail length
+ speed += .1; // add some speed
+      spawnApple(); // spawn another apple(-s)
+      break;
+    }
