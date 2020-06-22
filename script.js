@@ -123,3 +123,9 @@ x: ~~(Math.random() * canv.width),
   if(
     (newApple.x < aw || newApple.x > canv.width - aw)
     ||
+(newApple.y < ah || newApple.y > canv.height - ah)
+  )
+  {
+    spawnApple();
+    return;
+  }
