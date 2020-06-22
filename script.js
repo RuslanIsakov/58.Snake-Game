@@ -115,3 +115,7 @@ function spawnApple()
 {
   var
     newApple = {
+x: ~~(Math.random() * canv.width),
+      y: ~~(Math.random() * canv.height),
+      color: 'red'
+    };
