@@ -111,3 +111,7 @@ px < (apples[a].x + pw)
 }
 
 // apples spawner
+function spawnApple()
+{
+  var
+    newApple = {
