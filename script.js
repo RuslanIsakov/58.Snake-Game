@@ -151,3 +151,8 @@ if(
 spawnApple();
   }
 }
+// random color generator (for debugging purpose or just 4fun)
+function rc()
+{
+  return '#' + ((~~(Math.random() * 255)).toString(16)) + ((~~(Math.random() * 255)).toString(16)) + ((~~(Math.random() * 255)).toString(16));
+}
