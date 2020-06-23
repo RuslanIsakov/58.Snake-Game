@@ -144,3 +144,7 @@ if(
       return;
     }
   }
+
+  if( apples.length < 3 && ~~(Math.random() * 1000) > 700 )
+  {
+    // 30% chance to spawn one more apple
