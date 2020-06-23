@@ -135,3 +135,7 @@ x: ~~(Math.random() * canv.width),
 if(
       newApple.x < (trail[i].x + pw)
       && newApple.x + aw > trail[i].x
+&& newApple.y < (trail[i].y + ph)
+      && newApple.y + ah > trail[i].y
+    )
+    {
