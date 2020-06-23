@@ -132,3 +132,6 @@ x: ~~(Math.random() * canv.width),
 // check for collisions with tail element, so no apple will be spawned in it
   for( var i = 0; i < tail.length; i++ )
   {
+if(
+      newApple.x < (trail[i].x + pw)
+      && newApple.x + aw > trail[i].x
