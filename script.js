@@ -139,3 +139,8 @@ if(
       && newApple.y + ah > trail[i].y
     )
     {
+ // got collision
+      spawnApple();
+      return;
+    }
+  }
