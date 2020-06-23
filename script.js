@@ -156,3 +156,6 @@ function rc()
 {
   return '#' + ((~~(Math.random() * 255)).toString(16)) + ((~~(Math.random() * 255)).toString(16)) + ((~~(Math.random() * 255)).toString(16));
 }
+// velocity changer (controls)
+function changeDirection(evt)
+{
