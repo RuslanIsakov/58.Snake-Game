@@ -176,3 +176,6 @@ if( cooldown )
 
   if( evt.keyCode == 38 && !(yv > 0) ) // top arrow
     {xv = 0; yv = -speed;}
+
+  if( evt.keyCode == 39 && !(xv < 0) ) // right arrow
+    {xv = speed; yv = 0;}
