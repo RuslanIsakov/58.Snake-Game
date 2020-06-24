@@ -169,3 +169,6 @@ if( cooldown )
     {return false;}
 
   /*
+4 directional movement.
+   */
+  if( evt.keyCode == 37 && !(xv > 0) ) // left arrow
