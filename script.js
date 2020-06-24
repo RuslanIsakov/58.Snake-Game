@@ -162,3 +162,6 @@ function changeDirection(evt)
 if( !fkp && [37,38,39,40].indexOf(evt.keyCode) > -1 )
   {
     setTimeout(function() {gs = true;}, 1000);
+fkp = true;
+    spawnApple();
+  }
