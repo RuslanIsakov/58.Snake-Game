@@ -172,3 +172,7 @@ if( cooldown )
 4 directional movement.
    */
   if( evt.keyCode == 37 && !(xv > 0) ) // left arrow
+{xv = -speed; yv = 0;}
+
+  if( evt.keyCode == 38 && !(yv > 0) ) // top arrow
+    {xv = 0; yv = -speed;}
