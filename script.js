@@ -165,3 +165,7 @@ if( !fkp && [37,38,39,40].indexOf(evt.keyCode) > -1 )
 fkp = true;
     spawnApple();
   }
+if( cooldown )
+    {return false;}
+
+  /*
